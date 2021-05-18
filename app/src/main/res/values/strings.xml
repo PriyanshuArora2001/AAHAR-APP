@@ -1,0 +1,46 @@
+<resources>
+    <string name="welcome">Welcome to AAHAR</string>
+    <string name="app_name">AAHAR APP</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="about">About Us</string>
+    <string name="history">History</string>
+    <string name="aboutus">AAHAR provides the right channels for compassionate citizens to begin and manage initiatives, that solve for hunger locally. Our mission is to make India hunger free</string>
+    <string name="login">Login</string>
+    <string name="donate">Donate</string>
+    <string name="message">Message</string>
+    <string name="create_new">Not Registered! Click here to Register</string>
+    <string name="not_register">Already Registered?</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter your phone number</string>
+    <string name="email_error">Please enter your email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+
+    <string name="donor_name">Donor Name</string>
+    <string name="food_name">Food Items</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+
+    <string name="foodmap">Food Map</string>
+    <string name="mypin">My Pins</string>
+
+    <string name="receiver_name">Receiver Name</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="delete">Delete</string>
+</resources>
+

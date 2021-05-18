@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Donate">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donate"
+        android:fontFamily="@font/opensans"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <androidx.cardview.widget.CardView
+            xmlns:Card_View="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            Card_View:cardCornerRadius="5dp"
+            Card_View:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/nameError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:boxStrokeColor="@color/white">
+
+                    <EditText
+                        android:id="@+id/donorname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="@string/donor_name"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/opensans"
+                        android:inputType="text"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:backgroundTint="@android:color/transparent"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:importantForAutofill="no"
+                        tools:ignore="UnusedAttribute" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/itemError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:boxStrokeColor="@color/white">
+
+                    <EditText
+                        android:id="@+id/fooditem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="@string/food_name"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/opensans"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:inputType="text"
+                        android:backgroundTint="@android:color/transparent"
+                        android:maxLines="2"
+                        android:singleLine="true"
+                        android:importantForAutofill="no"
+                        tools:ignore="UnusedAttribute" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/phoneError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:boxStrokeColor="@color/white">
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="@string/phone_number"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/opensans"
+                        android:backgroundTint="@android:color/transparent"
+                        android:maxLength="12"
+                        android:inputType="phone"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:importantForAutofill="no"
+                        tools:ignore="UnusedAttribute" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/white"
+                    app:hintTextColor="@color/white"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/opensans"
+                    app:boxStrokeColor="@color/white">
+
+                    <EditText
+                        android:id="@+id/description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="@string/description"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/opensans"
+                        android:inputType="textMultiLine"
+                        android:maxLines="10"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:backgroundTint="@android:color/transparent"
+                        android:importantForAutofill="no"
+                        tools:ignore="UnusedAttribute" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <fragment
+                    android:id="@+id/google_map"
+                    xmlns:map="http://schemas.android.com/apk/res-auto"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    map:uiZoomControls="true"
+                    tools:ignore="FragmentTagUsage" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="@color/button_background_color"
+                    android:text="@string/submit"
+                    android:textColor="@color/button_text_color"
+                    android:textSize="20sp"
+                    tools:ignore="UnusedAttribute" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
