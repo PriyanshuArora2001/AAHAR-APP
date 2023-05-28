@@ -7,7 +7,7 @@ As mentioned above in the description there is a lot of food wastage that occurs
 
 The ultimate objective of this project is to communicate that investments in food wastage reduction is the most logical step in the pursuit of sustainable production and consumption, including food security, climate change and other adverse environmental effects. Public awareness materials and a strategy will be developed to this effect.
 </div>
-
+I am tanishka Sharma I am commiting this .
 Flowchart of the working of the application:
 
 <p align="center">
